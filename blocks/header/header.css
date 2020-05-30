@@ -1,0 +1,15 @@
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_english/header__lang-link_english.css');
+@import url('./__lang-link/_spanish/header__lang-link_spanish.css');
+
+.header{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-right: 148px;
+    padding-left: 148px;
+    width: 984px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+  }

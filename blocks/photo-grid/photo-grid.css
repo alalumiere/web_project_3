@@ -4,6 +4,7 @@
   min-width: 1184px;
   padding-left: 48px;
   padding-right: 48px;
+  padding-bottom: 92px;
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);

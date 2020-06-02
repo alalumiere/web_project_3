@@ -1,0 +1,8 @@
+.cover__background{
+  width: 100%;
+  height: 740px;
+  align-self: center;
+  background-image: url('../../../images/__background.png');
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,5 @@
+.place__section_erie{
+  padding-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 124px 264px 264px 60px 0px;
+}

@@ -1,11 +1,26 @@
+@import url('./__section/place__section.css');
+@import url('./__section/_maine/place__section_maine.css');
+@import url('./__section/_nh/place__section_nh.css');
+@import url('./__section/_ny/place__section_ny.css');
+@import url('./__section/_erie/place__section_erie.css');
+@import url('./__section/_ohio/place__section_ohio.css');
 @import url('./__title/place__title.css');
 @import url('./__img/place__img.css');
 @import url('./__website/place__website.css');
+@import url('./__website/_nh/place__website_nh.css');
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
 @import url('./__text/place__text.css');
+@import url('./__text/_maine-llbean/place__text_maine-llbean.css');
+@import url('./__text/_ny-light/place__text_ny-light.css');
 
 .place{
-  display: grid;
-  
+  min-width: 984px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 148px;
+  padding-right: 148px;
+  padding-bottom: 80px;
+  list-style: none;
+  margin: 0;
 }

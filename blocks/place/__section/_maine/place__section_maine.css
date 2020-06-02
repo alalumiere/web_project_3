@@ -1,0 +1,5 @@
+.place__section_maine{
+  padding-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:124px 204px 128px 26px 102px; 
+}

@@ -1,0 +1,5 @@
+.place__section_ny{
+  padding-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 124px 174px 163px 123px 0px;
+}

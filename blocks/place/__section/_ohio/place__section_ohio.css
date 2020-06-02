@@ -1,0 +1,5 @@
+.place__section_ohio{
+  padding-bottom: 92px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 124px 414px 30px 16px 0px;
+}

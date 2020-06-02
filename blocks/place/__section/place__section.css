@@ -1,0 +1,4 @@
+.place__section{
+  display: grid;
+  grid-column-gap: 40px;
+}

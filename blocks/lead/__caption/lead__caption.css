@@ -3,6 +3,14 @@
   line-height: 1.4;
   font-weight: normal;
   margin: 0;
+  width: 183px;
   padding-top: 8px;
   color: #ffffff;
 }
+
+@media screen and (min-width:1280px){
+  .lead__caption{
+    padding-left: 148px;
+  }
+}
+

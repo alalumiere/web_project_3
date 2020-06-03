@@ -13,3 +13,9 @@
   padding-right: 148px;
   padding-left: 148px;
 }
+
+@media screen and (min-width:1024px){
+  .lead{
+
+  }
+}

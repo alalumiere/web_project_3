@@ -13,3 +13,30 @@
     display: flex;
     justify-content: space-between;
   }
+
+  @media screen and (min-width:768px) and (max-width:1024){
+    .header{
+      width: 928px;
+      padding-top: 34px;
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+  }
+
+  @media screen and (min-width:425px) and (max-width:768px){
+    .header{
+      width: 720px;
+      padding-top: 34px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .header{
+      width: 288px;
+      padding-top: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }

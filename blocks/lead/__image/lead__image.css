@@ -2,3 +2,9 @@
   width: 984px;
   height: 615px;
 }
+
+@media (min-width:1280px){
+  .lead__image{
+  align-self: center;
+  }
+}

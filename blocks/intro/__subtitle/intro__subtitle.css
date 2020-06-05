@@ -5,3 +5,9 @@
   margin: 0;
   padding-bottom: 32px;
 }
+
+@media screen and (min-width:1281px){
+  .intro__subtitle{
+    width: 690px;
+  }
+}

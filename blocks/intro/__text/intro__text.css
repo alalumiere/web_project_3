@@ -5,3 +5,9 @@
   padding-bottom: 32px;
   margin: 0;
 }
+
+@media screen and (min-width:1281px){
+  .intro__text{
+    width: 690px;
+  }
+}

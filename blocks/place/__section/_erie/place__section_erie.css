@@ -3,3 +3,23 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 124px 264px 264px 60px 0px;
 }
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+  .place__section_erie{
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .place__section_erie{
+    padding-bottom: 72px;
+    grid-template-rows: auto;
+    grid-auto-rows: min-content;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+  .place__section_erie{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}

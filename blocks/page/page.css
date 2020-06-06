@@ -1,18 +1,11 @@
 .page{
-    min-width: 1280px;
-    font-family: 'inter';
-    scroll-padding-top: 1px;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-  
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  font-family: 'inter', sans-serif;
+  scroll-padding-top: 1px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   }
-
-  @font-face {
-    font-family: 'inter';
-    src: url('../../styles/vendor/fonts/fonts.css') format('woff2') format('woff');
-  }
-
- 

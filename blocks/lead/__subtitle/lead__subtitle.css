@@ -2,17 +2,22 @@
   font-size: 30px;
   font-weight: normal;
   line-height: 1.2;
-  width: 620px;
-  min-height: 72px;
+  max-width: 620px;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 64px;
 }
 
+@media screen and (min-width:768px) and (max-width:1279px){
+  .lead__subtitle{
+    padding-bottom: 56px;
+  }
+}
+
 @media screen and (min-width:320px) and (max-width:767px){
   .lead__subtitle{
-    font-size: calc(16px + 14px * (100vw - 320px)/ 447px);
+    font-size: 16px;
     line-height: 1.25;
   }
 }

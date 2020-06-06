@@ -1,12 +1,7 @@
-.place__section_maine{
+.place__section_maine{ 
   padding-bottom: 80px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 124px 204px 128px 26px 102px; 
-}
-
-@media screen and (min-width:1024px) and (max-width:1280px){
-  .place__section_maine{
-  }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -19,6 +14,7 @@
 
 @media screen and (min-width:320px) and (max-width:767px){
   .place__section_maine{
+    padding-bottom: 48px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }

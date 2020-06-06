@@ -7,8 +7,7 @@
 .intro{
   display: flex;
   flex-direction: column;
-  width: 690px;
-  min-height: 568px;
+  max-width: 690px;
   padding-top: 92px;
   padding-bottom: 92px;
   padding-left: 148px;
@@ -17,18 +16,30 @@
 
 @media screen and (min-width:1281px){
   .intro{
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
     padding-left: 0;
   }
 }
 
+@media screen and (min-width:1024px) and (max-width:1279px){
+  .intro{
+    max-width: 690px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .intro{
+    max-width: 720px;
+    padding: 88px 24px;
+  }
+}
+
 @media screen and (min-width:320px) and (max-width:767px){
   .intro{
-    width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
-
+    max-width: 288px;
+    padding: 64px 16px;
   }
 }
 

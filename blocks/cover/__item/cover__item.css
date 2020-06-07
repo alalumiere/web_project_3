@@ -1,5 +1,5 @@
 .cover__item{
-  min-height: 740px;
+  height: 740px;
   color: #ffffff;
   background-image: url('../../../images/__background.png');
   background-size: cover;
@@ -44,6 +44,6 @@
   
   @media screen and (min-width:320px) and (max-width:767px){
     .cover__item{
-      min-height: 320px;
+      height: 320px;
     }
   }

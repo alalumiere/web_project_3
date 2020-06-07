@@ -5,13 +5,8 @@
   margin: 0;
   padding-top: 8px;
   color: #ffffff;
-}
-
-@media screen and (min-width:1281px){
-  .lead__caption{
-    width: 984px;
-    margin: 0 auto;
-  }    
+  text-transform: capitalize;
+  letter-spacing: .15em;
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px){

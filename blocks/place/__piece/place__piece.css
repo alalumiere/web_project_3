@@ -1,0 +1,4 @@
+.place__piece{
+  display: flex;
+  flex-direction: column;
+}

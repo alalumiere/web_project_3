@@ -1,5 +1,6 @@
 @import url('./__title/lead__title.css');
 @import url('./__subtitle/lead__subtitle.css');
+@import url('./__figure/lead__figure.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
 
@@ -8,7 +9,6 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  padding-top: 58px;
   padding-right: 148px;
   padding-left: 148px;
 }

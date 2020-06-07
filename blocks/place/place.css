@@ -1,54 +1,33 @@
-@import url('./__section/place__section.css');
-@import url('./__section/_maine/place__section_maine.css');
-@import url('./__section/_nh/place__section_nh.css');
-@import url('./__section/_ny/place__section_ny.css');
-@import url('./__section/_erie/place__section_erie.css');
-@import url('./__section/_ohio/place__section_ohio.css');
 @import url('./__title/place__title.css');
 @import url('./__img/place__img.css');
 @import url('./__website/place__website.css');
-@import url('./__website/_nh/place__website_nh.css');
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
+@import url('./__piece/place__piece.css');
 @import url('./__text/place__text.css');
-@import url('./__text/_maine-llbean/place__text_maine-llbean.css');
-@import url('./__text/_ny-light/place__text_ny-light.css');
 
 .place{
-  max-width: calc(100% - 296px);
-  display: flex;
-  flex-direction: column;
-  padding-left: 148px;
-  padding-right: 148px;
-  padding-bottom: 80px;
-  list-style: none;
-  margin: 0;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 48px 40px;
+    padding-bottom: 80px;
+    margin: 0 auto;
 }
-
-
-@media screen and (min-width:1024px) and (max-width:1279px){
-  .place{
-    max-width: calc(100% - 96px);
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-bottom: 92px;
+  
+  @media screen and (min-width:320px) and (max-width:767px){
+    .place{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 48px;
+      padding-top:0;
+    }
   }
-}
 
-@media screen and (min-width:768px) and (max-width:1023px){
-  .place{
-    max-width: calc(100% - 48px);
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 88px;
+  .place:nth-of-type(5n){
+    padding-bottom: 0;
   }
-}
-
-@media screen and (min-width:320px) and (max-width:767px){
-  .place{
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 64px;
-  }
-}

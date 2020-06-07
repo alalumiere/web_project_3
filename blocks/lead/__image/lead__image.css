@@ -3,12 +3,6 @@
   min-height: 615px;
 }
 
-@media screen and (min-width:1281px){
-  .lead__image{
-  align-self: center;
-  }
-}
-
 @media screen and (min-width:1024px) and (max-width:1279px){
   .lead__image{
     width: 928px;

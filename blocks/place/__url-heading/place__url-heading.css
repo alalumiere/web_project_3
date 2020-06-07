@@ -1,9 +1,8 @@
 .place__url-heading{
-    font-size: 12px;
-    line-height: 1;
-    color: #aaaaaa;
-    font-weight: normal;
-    max-width: 484px;
-    margin: 0;
-    padding-bottom: 12px; 
-  }
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: .2em;
+  color: #aaaaaa;
+}

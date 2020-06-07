@@ -5,27 +5,17 @@
 @import url('./__span-accent/intro__span-accent.css');
 
 .intro{
-  display: flex;
-  flex-direction: column;
-  max-width: 690px;
-  padding-top: 92px;
-  padding-bottom: 92px;
-  padding-left: 148px;
+  max-width: calc(100% - 296px);
+  width: 100%;
+  padding: 92px 0 92px;
+  margin: auto;
   color: #ffffff;
-}
-
-@media screen and (min-width:1281px){
-  .intro{
-    max-width: 984px;
-    margin: 0 auto;
-    padding-left: 0;
-  }
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px){
   .intro{
-    max-width: 690px;
-    padding-left: 48px;
+    max-width: calc(100% - 96px);
+    margin: auto;
   }
 }
 
@@ -38,6 +28,7 @@
 
 @media screen and (min-width:320px) and (max-width:767px){
   .intro{
+    margin: 0;
     max-width: 288px;
     padding: 64px 16px;
   }

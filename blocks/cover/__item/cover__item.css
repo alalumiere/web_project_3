@@ -1,7 +1,9 @@
 .cover__item{
   height: 740px;
+  width: 1184px;
   color: #ffffff;
   background-image: url('../../../images/__background.png');
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -10,6 +12,7 @@
   flex-direction: column;
   text-decoration: none;
   position: relative;
+  margin: 0 auto;
   z-index: 0;
 }
 
@@ -30,20 +33,24 @@
     opacity: .8;
   }
 
-  @media screen and (min-width:1024px) and (max-width:1280px){
+  @media screen and (min-width:1024px) and (max-width:1279px){
     .cover__item{
-      min-height: 640px;
+      height: 640px;
+      width: 1024px;
     }
   }
   
   @media screen and (min-width:768px) and (max-width:1023px){
     .cover__item{
-      min-height: 480px;
+      height: 480px;
+      width: 768px;
     }
   }
   
   @media screen and (min-width:320px) and (max-width:767px){
     .cover__item{
-      height: 320px;
+      height: 200px;
+      width: 320px;
+      
     }
   }

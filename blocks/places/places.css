@@ -5,6 +5,7 @@
   flex-direction: column;
   margin: auto;
   padding-bottom: 95px;
+  padding-top: 92px;
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px){
@@ -19,6 +20,7 @@
   .places{
     max-width: calc(100% - 48px);
     padding-bottom: 88px;
+    padding-top: 88px;
   }
 }
 
@@ -26,5 +28,6 @@
   .places{
     max-width: 100%;
     padding-bottom: 64px;
+    padding-top: 64px;
   }
 }
